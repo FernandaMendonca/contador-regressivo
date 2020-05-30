@@ -1,0 +1,93 @@
+/* soft reset css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: scroll;
+}
+
+
+/* style css */
+
+body {
+    background-color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+    background-size: auto 100vh;
+    height: 100vh;
+}
+
+section {
+    height: 84vh;
+    text-align: center;
+}
+
+
+/* breakpoint */
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+#contador,
+.title {
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.title {
+    font-size: em;
+}
+
+#contador {
+    font-size: 2.5em;
+    line-height: 2em;
+    padding: 10px;
+}
+
+.capitaoCorona img {
+    height: 490px;
+    margin-top: 50px;
+    object-fit: cover;
+    object-position: center;
+    padding: 2em;
+    width: 800px;
+}
+
+footer {
+    background-color: rgba(255, 0, 0);
+    display: block;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 20px;
+    padding: 40px 5px;
+    text-align: center;
+}
+
+.contato .icons {
+    font-size: 25px;
+    text-align: center;
+}
+
+.icons a {
+    color: #000000;
+    transition: text-shadow 1s;
+}
+
+.icons a:active,
+.icons a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, .5);
+}
